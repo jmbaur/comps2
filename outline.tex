@@ -1,0 +1,61 @@
+\documentclass[%
+ aip,
+%jmp,%
+% bmf,%
+% sd,%
+rsi,%
+ % amsmath,amssymb,
+% preprint,%
+ reprint,%
+%author-year,%
+%author-numerical,%
+]{revtex4-1}
+
+\usepackage[utf8]{inputenc}
+% \usepackage{graphicx}% Include figure files
+% \usepackage{dcolumn}% Align table columns on decimal point
+% \usepackage{bm}% bold math
+
+\begin{document}
+\title{Comps Presentation Outline} %Title of paper
+\author{Jared Baur}
+\date{\today}
+
+\maketitle
+
+\section{Introduction}
+Double pendulum is a well known example of chaotic behavior.\\
+\indent First half cycle is relatively predictable and repeatable, but after that chaos is prevalent.\\
+\indent Can a baseball bat (or any other swinging element) be designed so that all the energy from the first pendulum arm (arms of person swinging bat) can be transferred to the bat?
+
+\section{Chaos\cite{Shinbrot1992}}
+
+\begin{equation}
+	\Delta x(t) \sim \Delta x(t_0) e^{\lambda t}
+\end{equation}
+
+Equation 1 describes the separation between nearby trajectories (so this describes the difference between expected values and actual values.\\
+\indent As time increases, the chaos increases.\\
+\indent Show tandem double pendulum to show unpredictability\\
+\indent pendula that are released from a larger initial angle (or a bat that is swung after traveling a large distance from the arms) produce trajectories that quickly diverge from one another
+
+\subsection{Cause of Exponential Growth}
+
+\section{Equations of Motion}
+Explain why Newtonian equations are used instead of Lagrangian equations\\
+\indent Talk about moment of inertias for both pendulum arms\\
+\indent Talk about initial conditions for different situations
+
+\section{Experimental Results}
+Talk about procedure taken to produce experimental results
+
+\section{Energy Transfer}
+Center of percussion for bats \cite{Cross2005}\\
+\indent Building the perfect bat that transfers all energy
+
+\section{Relevance to other applications}
+Overarm throwing (upper arm is first pendulum arm and lower arm is second pendulum arm)
+
+\bibliography{main}
+
+\end{document}
