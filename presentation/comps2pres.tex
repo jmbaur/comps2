@@ -15,6 +15,7 @@
 \setbeamertemplate{caption}[numbered]
 \setbeamercovered{invisible}
 \usepackage{mwe,tikz}
+\usepackage{gensymb}
 \usepackage[percent]{overpic}
 \usepackage{animate}
 \usepackage{bm}
@@ -138,7 +139,7 @@
 		    \centering
 		    \animategraphics[loop,controls,width=\linewidth,scale=0.6]{10}{baseballswing_gif/baseballswing-}{0}{23}
 		\end{figure}
-		Can we design a "perfect" baseball bat?
+		Can we design a ``perfect" baseball bat?
 	}
 	% \only<4> {
 	% 	Can we design a "perfect" baseball bat?
@@ -146,9 +147,71 @@
 \end{frame}
 
 \section{Equations of Motion}
-	\only<1> {
 
+\begin{frame} {Equations of Motion}
+
+	\only<1> {
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.75]{equationsofmotion.png}
+		\end{figure}
 	}
+	
+	\only<2> {
+		Coordinates $(x,y)$ of $G_2$, with respect to origin $A$:
+		\begin{equation}
+			L_1 \sin{\theta} + h_2 \sin{\phi} - L_1 \cos{\theta} - h_2 \sin{\phi} \tag{1}
+		\end{equation}
+		
+		With $V$ as the velocity of $G_2$, components of $V$ are given as:
+		\begin{equation}
+			V_x = \frac{dx}{dt} = -L_1 \omega_1 \cos{\theta} - h_2 \omega_2 \cos{\phi} \tag{2}
+		\end{equation}
+		\begin{equation}
+			V_y = \frac{dy}{dt} = -L_1 \omega_1 \sin{\theta} - h_2 \omega_2 \sin{\phi} \tag{3}
+		\end{equation}
+	}
+
+	\only<3> {
+		Forces arm exerts on rod:
+		\begin{equation*}
+			\begin{aligned}
+				F_x & = M_2 \frac{d V_x}{dt} \\
+				    & = -M_2 \bigg [ L_1 \cos{\theta} \frac{d \omega_1}{dt} + L_1 \omega_1^2 \sin{\theta} + h_2 \cos{\phi} \frac{d \omega_2}{dt} + h_2 \omega_2^2 \sin{\phi} \bigg ]
+			\end{aligned}
+		\end{equation*}
+
+		\begin{equation*}
+			\begin{aligned}
+				F_y - M_2 g & = M_2 \frac{d V_y}{dt}\\
+				 % & = \\
+				& = -M_2 \bigg [ L_1 \sin{\theta} \frac{d \omega_1}{dt} - L_1 \omega_1^2 \cos{\theta} + h_2 \sin{\phi} \frac{d \omega_2}{dt} - h_2 \omega_2^2 \cos{\phi} \bigg ]
+			\end{aligned}
+		\end{equation*}
+	}
+
+	\only<4> {
+		Torque from muscles, $C_1$ is applied on arm and $C_2$ is applied on the rod. The arm applies an equal and opposite torque $-C_2$ to the rod. \\
+		Initial conditions: $\theta = 90\degree$, $\phi = 180\degree$, and $\beta = \theta - \phi = 90\degree$.
+
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.4]{wristcock.png}
+		\end{figure}
+	}
+
+	\only<5> {
+		When $C_1$ and $C_2$ equal zero, initial angular accelerations are
+		\begin{equation}
+			\frac{d \omega_1}{dt} = (M_1 h_1 + M_2 L_1)g/A \tag{6}
+		\end{equation}
+
+		\begin{equation}
+			\frac{d \omega_2}{dt} = 0 \tag{7}
+		\end{equation}
+	}
+
+\end{frame}
 
 
 \section{Experimental Results}
