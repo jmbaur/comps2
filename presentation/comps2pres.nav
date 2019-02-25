@@ -17,8 +17,27 @@
 \headcommand {\sectionentry {3}{Experimental Results}{12}{Experimental Results}{0}}
 \headcommand {\slideentry {3}{0}{1}{12/16}{}{0}}
 \headcommand {\beamer@framepages {12}{16}}
-\headcommand {\beamer@partpages {1}{16}}
-\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\beamer@sectionpages {17}{16}}
-\headcommand {\beamer@documentpages {16}}
-\headcommand {\gdef \inserttotalframenumber {5}}
+\headcommand {\beamer@sectionpages {12}{16}}
+\headcommand {\beamer@subsectionpages {12}{16}}
+\headcommand {\sectionentry {4}{Torque}{17}{Torque}{0}}
+\headcommand {\slideentry {4}{0}{1}{17/19}{}{0}}
+\headcommand {\beamer@framepages {17}{19}}
+\headcommand {\beamer@sectionpages {17}{19}}
+\headcommand {\beamer@subsectionpages {17}{19}}
+\headcommand {\sectionentry {5}{Energy Transfer and Center of Percussion}{20}{Energy Transfer and Center of Percussion}{0}}
+\headcommand {\slideentry {5}{0}{1}{20/23}{}{0}}
+\headcommand {\beamer@framepages {20}{23}}
+\headcommand {\slideentry {5}{0}{2}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@sectionpages {20}{24}}
+\headcommand {\beamer@subsectionpages {20}{24}}
+\headcommand {\sectionentry {6}{Conclusion}{25}{Conclusion}{0}}
+\headcommand {\slideentry {6}{0}{1}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {6}{0}{2}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@partpages {1}{26}}
+\headcommand {\beamer@subsectionpages {25}{26}}
+\headcommand {\beamer@sectionpages {25}{26}}
+\headcommand {\beamer@documentpages {26}}
+\headcommand {\gdef \inserttotalframenumber {10}}
