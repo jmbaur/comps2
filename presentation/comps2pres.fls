@@ -2546,6 +2546,9 @@ INPUT ./equationsofmotion.png
 INPUT wristcock.png
 INPUT ./wristcock.png
 INPUT ./wristcock.png
+INPUT arod.jpg
+INPUT ./arod.jpg
+INPUT ./arod.jpg
 INPUT aerialswing.jpg
 INPUT ./aerialswing.jpg
 INPUT ./aerialswing.jpg
@@ -3116,6 +3119,7 @@ INPUT ./pitch_gif/pitch-119.png
 INPUT momentumtransfer.png
 INPUT ./momentumtransfer.png
 INPUT ./momentumtransfer.png
+INPUT /opt/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 OUTPUT comps2pres.nav
 OUTPUT comps2pres.toc
 OUTPUT comps2pres.snm

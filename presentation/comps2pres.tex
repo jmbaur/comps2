@@ -173,7 +173,7 @@
 	}
 
 	\only<3> {
-		Forces arm exerts on rod:
+		Forces on rod:
 		\begin{equation*}
 			\begin{aligned}
 				F_x & = M_2 \frac{d V_x}{dt} \\
@@ -185,13 +185,13 @@
 			\begin{aligned}
 				F_y - M_2 g & = M_2 \frac{d V_y}{dt}\\
 				 % & = \\
-				   & = -M_2 \bigg [ L_1 \sin{\theta} \frac{d \omega_1}{dt} - L_1 \omega_1^2 \cos{\theta} + h_2 \sin{\phi} \frac{d \omega_2}{dt} - h_2 \omega_2^2 \cos{\phi} \bigg ] %(6)
+				   & = -M_2 \bigg [ L_1 \sin{\theta} \frac{d \omega_1}{dt} - L_1 \omega_1^2 \cos{\theta} + h_2 \sin{\phi} \frac{d \omega_2}{dt} - h_2 \omega_2^2 \cos{\phi} \bigg ] (6)
 			\end{aligned}
 		\end{equation*}
 	}
 
 	\only<4> {
-		Torque from muscles, $C_1$ is applied on arm and $C_2$ is applied on the rod. The arm applies an equal and opposite torque $-C_2$ to the rod. \\
+		Torque from muscles, $C_1$ is applied on arm and $C_2$ is applied on the rod. The rod applies an equal and opposite torque $-C_2$ to the arm. \\
 		Initial conditions: $\theta = 90\degree$, $\phi = 180\degree$, and $\beta = \theta - \phi = 90\degree$.
 
 		\begin{figure}
@@ -201,24 +201,33 @@
 	}
 
 	\only<5> {
-		When $C_1$ and $C_2$ equal zero, initial angular accelerations are
-		\begin{equation}
-			\frac{d \omega_1}{dt} = (M_1 h_1 + M_2 L_1)g/A \tag{7}
-		\end{equation}
-
-		\begin{equation}
-			\frac{d \omega_2}{dt} = 0 \tag{8}
-		\end{equation}
-
-		Rod acts as point mass at the end of the arm since it has no initial angular acceleration, so the total moment of inertia of the arm and rod is
-		\begin{equation}
-			I_1 +M_2 L_2^2 = A \tag{9}
-		\end{equation}
-
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.075]{arod.jpg}
+		\end{figure}
 	}
 
+	% \only<6> {
+	% 	When $C_1$ and $C_2$ equal zero, initial angular accelerations are
+	% 	\begin{equation}
+	% 		\frac{d \omega_1}{dt} = (M_1 h_1 + M_2 L_1)g/A \tag{7}
+	% 	\end{equation}
+
+	% 	\begin{equation}
+	% 		\frac{d \omega_2}{dt} = 0 \tag{8}
+	% 	\end{equation}
+
+	% 	Rod acts as point mass at the end of the arm since it has no initial angular acceleration, so the total moment of inertia of the arm and rod is
+	% 	\begin{equation}
+	% 		I_1 +M_2 L_2^2 = A \tag{9}
+	% 	\end{equation}
+
+	% }
+
 	\only<6> {
-		In practice, initial stage of swing is in "wrist-cock" position. After arm has rotated to about $\theta = 45 \degree$, torque from centripetal force is large enough to swing the rod without assistance from the wrist.
+		In practice, initial stage of swing is in "wrist-cock" position. After arm has rotated to about $\theta = 45 \degree$, torque increases on the arm drastically.\\
+		\vspace{\baselineskip}
+		Ideally, arm and rod are in line ($\beta = 0 \degree$) at impact.
 		\begin{figure}
 			\centering
 			\includegraphics[scale=0.2]{aerialswing.jpg}
@@ -232,7 +241,7 @@
 \begin{frame} {Experimental Results}
 	
 	\only<1> {
-		With the stop mechanism, $\beta$ cannot exceed $90 \degree$ and the pendulum initially rotates as a rigid body
+		With the stop mechanism, $\beta$ cannot fall under $90 \degree$ and the pendulum initially rotates as a rigid body
 		\begin{figure}
 			\centering
 			\includegraphics[scale=0.5]{stopmechanism.png}
@@ -288,7 +297,7 @@
 			\centering
 			\includegraphics[scale=0.4]{torque.png}
 		\end{figure}
-		Gravitational force is very weak relative to the other forces in play
+		Gravitational force is weak relative to the other forces in play
 	}
 
 	\only<2> {
@@ -315,13 +324,15 @@
 			\tau_{\perp} = F_{\perp} h_2 \cos{(\phi - \lambda)} \tag{13}
 		\end{equation}
 
+		$\lambda$ is the angle between velocity vector $V$ and the vertical\\
+		\vspace{\baselineskip}
 		\begin{equation}
 			C_2 + \tau_{\parallel} + \tau_{\perp} = I_{c.m.} \frac{d \omega_2}{dt} \tag{14}
 		\end{equation}
 	}
 \end{frame}
 
-\section{Energy Transfer and Center of Percussion}
+\section{Energy Transfer}
 
 \begin{frame} {Energy Transfer}
 	\only<1> {
@@ -331,6 +342,7 @@
 			\includegraphics[scale=0.4]{baseballbat.jpg}
 		\end{figure}
 		Effective mass, $M_e$, equals $M$ for impact at center of mass. $M_e$ is less than $M$ for impact away from the center of mass.\\
+		\vspace{0.1in}
 		e.g.:	$\frac{M_e}{M} =$ 0.4 near the tip of bat\\
 
 	}
@@ -392,13 +404,37 @@
 \section{Conclusion}
 
 \begin{frame} {Conclusion}
-	A striking implement and ball could be chosen to transfer all energy from arms to the ball (not feasible for most sports)
+	A striking implement and ball could be chosen to transfer all energy from pendula arms to the ball (not feasible for most sports)
 \end{frame}
 
-\begin{frame} {What to look forward to}
-	Want to look into center of percussion
+\begin{frame} {Future Research}
+	\begin{itemize}
+		\item Center of Percussion
+		\item Dynamics of swing that produce the best results on field
+	\end{itemize}
 \end{frame}
 
-% \section*{Resources}
+\section*{Resources}
+\begin{frame} {Resources}
+	\only<1> {
+		\begin{block}{}
+		Cross, Rod (2005).\\
+		A double pendulum swing experiment: In search of a better bat \\
+		American Journal of Physics, 330(73).\\
+	\end{block}
+	\begin{block}{}
+		Cross, Rod (2003).\\
+		Center of percussion of handheld implements(1943).\\
+	\end{block}
+		\begin{block}{}
+			Cross, Rod (2003).\\
+		Physics of overarm throwing.\\
+	\end{block}
+		\begin{block}{}
+		Shinbrot, Troy (1991).\\
+		Chaos in a double pendulum.\\
+	\end{block}
+}
+\end{frame} 
 \end{document}
 
