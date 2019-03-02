@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.28)  1 MAR 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.28)  1 MAR 2019 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,58 +573,82 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 65.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 <lights.jpg, id=4, 738.76pt x 1108.14pt>
 File: lights.jpg Graphic file (type jpg)
 <use lights.jpg>
-Package pdftex.def Info: lights.jpg  used on input line 77.
+Package pdftex.def Info: lights.jpg  used on input line 78.
 (pdftex.def)             Requested size: 184.68954pt x 277.03432pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lights.jpg>] (./comps1pap.bbl
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+<equationsofmotion.png, id=5, 392.46625pt x 303.1325pt>
+File: equationsofmotion.png Graphic file (type png)
+<use equationsofmotion.png>
+Package pdftex.def Info: equationsofmotion.png  used on input line 97.
+(pdftex.def)             Requested size: 235.48155pt x 181.8809pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lights.jpg>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 115.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 115.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+(./comps1pap.bbl
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
-) [2] (./comps1pap.aux) ) 
+
+Underfull \hbox (badness 1112) in paragraph at lines 69--74
+ []\T1/ptm/m/n/8 Cross, ``A dou-ble pen-du-lum swing ex-per-i-ment,'' Amer-i-can Jour-nal of
+ []
+
+) [2 <./equationsofmotion.png>] (./comps1pap.aux) ) 
 Here is how much of TeX's memory you used:
- 18077 strings out of 494561
- 369453 string characters out of 6177454
- 442600 words of memory out of 5000000
- 21334 multiletter control sequences out of 15000+600000
- 49897 words of font info for 98 fonts, out of 8000000 for 9000
+ 18181 strings out of 494561
+ 371435 string characters out of 6177454
+ 445628 words of memory out of 5000000
+ 21427 multiletter control sequences out of 15000+600000
+ 62270 words of font info for 124 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,11n,71p,623b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,71p,1032b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0900.600pk> </home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on comps1pap.pdf (2 pages, 195783 bytes).
+Output written on comps1pap.pdf (2 pages, 211372 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
