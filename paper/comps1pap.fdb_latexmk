@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex comps1pap"] 1551500596 "comps1pap.aux" "comps1pap.bbl" "comps1pap" 1551507990
+["bibtex comps1pap"] 1551509528 "comps1pap.aux" "comps1pap.bbl" "comps1pap" 1551511770
   "./aipnum4-1.bst" 1551426710 71945 7cd378302a037b260485973f72a35dcd ""
-  "comps1pap.aux" 1551507990 1878 8e45ccd28479447231e91663e17076d6 ""
-  "comps1papNotes.bib" 1551507990 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
+  "comps1pap.aux" 1551511769 1878 8e45ccd28479447231e91663e17076d6 ""
+  "comps1papNotes.bib" 1551511769 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
   "main.bib" 1551499794 659 0d8249548e4865f0fab42855c9a3e771 ""
   (generated)
   "comps1pap.blg"
   "comps1pap.bbl"
-["pdflatex"] 1551507990 "comps1pap.tex" "comps1pap.pdf" "comps1pap" 1551507990
+["pdflatex"] 1551511769 "comps1pap.tex" "comps1pap.pdf" "comps1pap" 1551511770
   "/etc/texmf/web2c/texmf.cnf" 1551424037 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk" 1551430412 19908 a90ec705d83afb8374ebba8d321b01a3 ""
   "/home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0900.600pk" 1551430412 18348 d7314be27ee31c33c1fa827e2bb33f29 ""
@@ -58,6 +58,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1480098717 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1480098733 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1480098746 33709 b09d2e140b7e807d3a97058263ab6693 ""
@@ -207,15 +208,15 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1551424110 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1551424113 795362 549a7f09644b9c3ac3727eb2dcbb6f64 ""
   "aip4-1.rtx" 1551426710 60820 bf92ecfa6582cd56ac89ec391de9aa41 ""
-  "comps1pap.aux" 1551507990 1878 8e45ccd28479447231e91663e17076d6 ""
-  "comps1pap.bbl" 1551500596 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps1pap"
-  "comps1pap.tex" 1551507989 7387 4992ad91bdc8986a9163f156df2c4d53 ""
+  "comps1pap.aux" 1551511769 1878 8e45ccd28479447231e91663e17076d6 ""
+  "comps1pap.bbl" 1551509528 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps1pap"
+  "comps1pap.tex" 1551511768 8729 3337598725231ddf8c70532769c5f532 ""
   "equationsofmotion.png" 1551426710 15749 d6d80853fb89cdada84b1c3c565172a0 ""
   "lights.jpg" 1551426710 119999 bf44f6d159d3c304c9bf2de4401a0baa ""
   "revsymb4-1.sty" 1551426710 5190 0f4247f7a75d2f8239f5a0c0c404bea3 ""
   "revtex4-1.cls" 1551426710 199797 cabc32ae3f68475cabbf37ac7498f20b ""
   (generated)
-  "comps1papNotes.bib"
   "comps1pap.pdf"
   "comps1pap.aux"
   "comps1pap.log"
+  "comps1papNotes.bib"

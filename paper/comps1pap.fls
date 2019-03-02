@@ -384,6 +384,7 @@ INPUT /home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0900.60
 INPUT /home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk
 INPUT /home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb

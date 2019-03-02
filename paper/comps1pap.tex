@@ -89,7 +89,9 @@ Although the focus of this paper will be on the baseball swing, the double pendu
 
 Describing the motion of a double pendulum has been argued as highly complicated\cite{Jorgensen1970}. For this reason, Lagrangians have been used in past studies to represent this motion. However, when we look at the forces on each arm of the pendulum with respect to each arm's center of mass, Newtonian equations of motion can be used to describe the motion.
 
-Figure 2 depicts the components in a simple double pendulum. The upper arm of the pendulum is the first arm attached to a fixed axis $A$. This arm has length $L_1$, center of mass at point $G_1$, and distance to its center of mass $h_1$ (measured from point $A$). This arm makes an angle $\theta$ with the vertical axis and has a gravitational force acting on its center of mass equal to $M_1 g$, where $M_1$ is the mass of the arm and $g$ is the acceleration due to gravity.
+Figure 2 depicts the components in a simple double pendulum. The $x,y$ axes for position and forces are shown in the figure. The upper arm of the pendulum is the first arm attached to a fixed axis $A$. This arm has length $L_1$, center of mass at point $G_1$, and distance to its center of mass $h_1$ (measured from point $A$). This arm makes an angle $\theta$ with the vertical axis and has a gravitational force acting on its center of mass equal to $M_1 g$, where $M_1$ is the mass of the arm and $g$ is the acceleration due to gravity.
+
+The second arm (lower arm) rotates on a ``fixed" axis at point $B$. If we isolate the second arm from the system, it would rotate about point $B$ as if it were fixed, however point $B$ is rotating around point $A$ since it is at the end of the first arm. The second arm has a length $L_2$ and its center of mass at point $G_2$, a distance of $h_2$ away from point $B$. The arm makes an angle of $\phi$ with the vertical axis and has a gravitational force of $M_2 g$ acting on its mass $M_2$. Point C is the end of the second arm, and will act as a point of interest for our paper as we track the trajectory of this point. The velocity vector $V$ is the direction of motion for the second arm's center of mass through the swinging of a double pendulum. 
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
@@ -106,39 +108,39 @@ Figure 2 depicts the components in a simple double pendulum. The upper arm of th
 	\caption{The components in a double pendulum. Since the equations that describe a double pendulum can be rather confusing, we use the center of mass $G_1$ and $G_2$ to describe the forces acting on the pendula arms.}
 \end{figure}
 
-		\begin{equation}
-			L_1 \sin{\theta} + h_2 \sin{\phi} - L_1 \cos{\theta} - h_2 \cos{\phi}
-		\end{equation}
+We start writing our equations of motion by describing the coordinates of our center of mass on the second arm. We want the coordinates of the center of mass since we will write our forces with respect to that (as opposed to point C). Point $G_2$ is described in Equation 2, where the first half of the equation is the $x$ component and the second half is the $y$ component. The $y$ component is negative since the double pendulum's origin at $(x,y)=(0,0)$ is assumed at point $A$.
 
-		\begin{equation}
-			V_x = \frac{dx}{dt} = -L_1 \omega_1 \cos{\theta} - h_2 \omega_2 \cos{\phi}
-		\end{equation}
-		\begin{equation}
-			V_y = \frac{dy}{dt} = -L_1 \omega_1 \sin{\theta} - h_2 \omega_2 \sin{\phi}
-		\end{equation}
+\begin{equation}
+	G_2(x,y) = \Big([L_1 \sin{\theta} + h_2 \sin{\phi}],  [- L_1 \cos{\theta} - h_2 \cos{\phi}]\Big)
+\end{equation}
 
+*to-do: describe velocities*
 
-		\begin{equation}
-			\begin{aligned}
-				F_x & = M_2 \frac{d V_x}{dt} \\
-				    & = -M_2 \bigg [ L_1 \cos{\theta} \frac{d \omega_1}{dt} + L_1 \omega_1^2 \sin{\theta} \\
-				    & + h_2 \cos{\phi} \frac{d \omega_2}{dt} + h_2 \omega_2^2 \sin{\phi} \bigg ]
-			\end{aligned}
-		\end{equation}
+\begin{equation}
+	V_x = \frac{dx}{dt} = -L_1 \omega_1 \cos{\theta} - h_2 \omega_2 \cos{\phi}
+\end{equation}
 
-		\begin{equation}
-			\begin{aligned}
-				F_y - M_2 g & = M_2 \frac{d V_y}{dt}\\
-				   & = -M_2 \bigg [ L_1 \sin{\theta} \frac{d \omega_1}{dt} - L_1 \omega_1^2 \cos{\theta} \\
-				   & + h_2 \sin{\phi} \frac{d \omega_2}{dt} - h_2 \omega_2^2 \cos{\phi} \bigg ]
-			\end{aligned}
-		\end{equation}
+\begin{equation}
+	V_y = \frac{dy}{dt} = -L_1 \omega_1 \sin{\theta} - h_2 \omega_2 \sin{\phi}
+\end{equation}
 
+*to-do: describe how to get force*
 
+\begin{equation}
+	\begin{aligned}
+		F_x & = M_2 \frac{d V_x}{dt} \\
+		    & = -M_2 \bigg [ L_1 \cos{\theta} \frac{d \omega_1}{dt} + L_1 \omega_1^2 \sin{\theta} \\
+		    & + h_2 \cos{\phi} \frac{d \omega_2}{dt} + h_2 \omega_2^2 \sin{\phi} \bigg ]
+	\end{aligned}
+\end{equation}
 
-
-
-
+\begin{equation}
+	\begin{aligned}
+		F_y - M_2 g & = M_2 \frac{d V_y}{dt}\\
+		   & = -M_2 \bigg [ L_1 \sin{\theta} \frac{d \omega_1}{dt} - L_1 \omega_1^2 \cos{\theta} \\
+		   & + h_2 \sin{\phi} \frac{d \omega_2}{dt} - h_2 \omega_2^2 \cos{\phi} \bigg ]
+	\end{aligned}
+\end{equation}
 
 \section{\label{sec:level3}Experimental Results}
 
