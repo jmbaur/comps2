@@ -114,7 +114,7 @@ We start writing our equations of motion by describing the coordinates of our ce
 	G_2(x,y) = \Big([L_1 \sin{\theta} + h_2 \sin{\phi}],  [- L_1 \cos{\theta} - h_2 \cos{\phi}]\Big)
 \end{equation}
 
-*to-do: describe velocities*
+The velocity of point $G_2$ is found by using the angular velocity of the entire first arm, $\omega_1$, and combining it with the angular velocity of the second arm, $\omega_2$. The components of this velocity are found by multiplying the angular velocities against the distance to point $G_2$. For the $x$-direction, we take $-L_1 \cos{\theta}$ for the first arm and $-h_2 \cos{\phi}$ for the second arm. Likewise for the $y$-direction, we take $-L_1 \sin{\theta}$ and $-h_2 \sin{\phi}$ for the first and second arms, respectively. These components are oriented negatively since the arm is moving in the negative $x$- and $y$-directions. The velocities $V_x$ and $V_y$ for point $G_2$ are described in Equations 3 and 4.
 
 \begin{equation}
 	V_x = \frac{dx}{dt} = -L_1 \omega_1 \cos{\theta} - h_2 \omega_2 \cos{\phi}
@@ -124,7 +124,7 @@ We start writing our equations of motion by describing the coordinates of our ce
 	V_y = \frac{dy}{dt} = -L_1 \omega_1 \sin{\theta} - h_2 \omega_2 \sin{\phi}
 \end{equation}
 
-*to-do: describe how to get force*
+The forces on center of mass point $G_2$ are found by taking the derivatives of Equations 3 and 4. Newton's second law $\sum \bold{F} = m \bold{a}$ is used to describe the sum of forces acting on the double pendulum. For the force in the $x$-direction, the only force applied to $G_2$ is the force from the upper arm pulling on the lower arm. For the $y$-direction, the upper arm as well as force due to gravity act on the lower arm. The $x$- and $y$-components of force are given by Equations 5 and 6.
 
 \begin{equation}
 	\begin{aligned}
