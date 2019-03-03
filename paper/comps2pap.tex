@@ -41,6 +41,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{bm}% bold math
 \usepackage{mathptmx}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{gensymb}
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %\linenumbers\relax % Commence numbering lines
 \usetikzlibrary{arrows,decorations.markings,decorations.pathmorphing, patterns,shapes}
@@ -142,7 +145,40 @@ The forces on center of mass point $G_2$ are found by taking the derivatives of 
 	\end{aligned}
 \end{equation}
 
-These derived equations are for a generic double pendulum that falls in a vertical fashion. In order to apply this concept to the swing of a baseball bat, we will use the torques on the pendula components. The terminology we will use for the upper and lower components of the pendulum will be the ``arm" and ``rod", respectively. In a baseball swing, the upper body musculature applies
+These derived equations are for a generic double pendulum that falls in a vertical fashion. In order to apply this concept to the swing of a baseball bat, we will use the torques on the pendula components. The terminology we will use for the upper and lower components of the pendulum will be the ``arm" and ``rod", respectively. In a baseball swing, we assume that the upper body musculature applies a torque $C_1$ to the arm and a torque $C_2$ to the rod of the pendulum. These torques originate from the equal and opposite muscle and joint reaction forces from the shoulder and elbow joints\cite{Cross2005} (points $A$ and $B$, respectively). The net torque acting on the arm is given using the generic equation $\sum \bold{\tau} = \bold{I} \frac{d \bold{\omega}}{dt}$, where $\tau$ is the net torque, $I$ is the moment of inertia, and $\omega$ is the angular velocity. With torques $C_1$ and $C_2$ on the arm and rod, the rod exerts an equal and opposite torque $-C_2$ on the arm. There is also a clockwise torque on the arm about point $A$ in the form of $F_x L_1 \cos{\theta} + F_y L_1 \sin{\theta}$. Thus, the torque acting on the arm is given by Equation 7.
+
+\begin{equation}
+	\begin{aligned}
+		\sum \tau_{\text{arm}} & = I_1 \frac{d \omega_1}{dt} \\ 
+			  & = C_1 - C_2 + M_1 g h_1 \sin{\theta} + F_x L_1 \cos{\theta} + F_y L_1 \sin{\theta}
+	\end{aligned}
+\end{equation}
+
+The torque acting on the rod's center of mass is given in Equation 8. The arm applies no torque to the rod. We solve for the torque on the center of mass for the rod since we are interested in this point as it pertains to the transfer of energy (described in the coming sections).
+
+\begin{equation}
+	\begin{aligned}
+		\sum \tau_{\text{rod}} & = I_{c.m.} \frac{d \omega_2}{dt} \\ 
+			  & = C_2 + F_x h_2 \cos{\phi} + F_y h_2 \sin{\phi}
+	\end{aligned}
+\end{equation}
+
+Substituting in Equations 5 and 6, we get a complete description of the torque on the system (Equation 9). The angle $\beta$ is the difference between $\phi$ and $\theta$ ($\beta = \phi - \theta$), $A=I_1+M_2L_1^2$, $B=M_2h_2L_1$, and $I_2=I_{c.m.}+M_2h_2^2$.
+
+\begin{equation}
+	\begin{aligned}
+		C_1 - C_2 = & A \frac{d \omega_1}{dt} + B \cos{\beta} \frac{d \omega_2}{dt} + B \omega_2^2 \sin{\beta} \\
+			    & -(M_1 h_1 + M_2 L_1) g \sin{\theta}\\
+		C_2 = & I_2 \frac{d \omega_2}{dt} + B \cos{\beta} \frac{d \omega_1}{dt} \\
+		      & -B \omega_1^2 \sin{\beta} -M_2 h_2 g \sin{\phi}
+	\end{aligned}
+\end{equation}
+
+*to-do:verify equations*
+
+It is difficult to parse Equation 9 for context of the nature of our system. To simplify the equation, we use initial conditions that are relevant to our baseball swing. Referring to Figure 3, we have the conditions $\theta=90\textdegree $, $\phi=180$, and $\beta=90$.
+
+*to-do:figure out degree symbols*
 
 \section{\label{sec:level3}Experimental Results}
 
