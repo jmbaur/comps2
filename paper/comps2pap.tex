@@ -44,6 +44,7 @@
 \usepackage{siunitx}
 \usepackage{textcomp}
 \usepackage{gensymb}
+\usepackage{float}
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %\linenumbers\relax % Commence numbering lines
 \usetikzlibrary{arrows,decorations.markings,decorations.pathmorphing, patterns,shapes}
@@ -62,7 +63,7 @@
              %  but any date may be explicitly specified
 
 \begin{abstract}
-	abstract goes here
+	To be written later.
 \end{abstract}
 
 \maketitle
@@ -174,17 +175,131 @@ Substituting in Equations 5 and 6, we get a complete description of the torque o
 	\end{aligned}
 \end{equation}
 
-*to-do:verify equations*
+% *to-do:verify equations*
 
-It is difficult to parse Equation 9 for context of the nature of our system. To simplify the equation, we use initial conditions that are relevant to our baseball swing. Referring to Figure 3, we have the conditions $\theta=90\textdegree $, $\phi=180$, and $\beta=90$.
+It is difficult to parse Equation 9 for context of the nature of our system. To simplify the equation, we use initial conditions that are relevant to our baseball swing. Referring to Figure 3, we have the conditions $\theta=90\degree$, $\phi=180\degree$, and $\beta=90\degree$. We also apply the initial condition that $C_1 = C_2 = 0$, since initially, the upper body musculature is not applying a torque to the arm or the rod components of the pendulum. Applying the initial conditions to Equation 9, we get a simplified version that is more applicable to the baseball swing. This simplified version is presented in Equation 10.
 
-*to-do:figure out degree symbols*
+\begin{equation}
+	\begin{aligned}
+		M_1 g h_1 - F_y L_1  & = I_1 \frac{d\omega_1}{dt} \\
+		F_x h_2 & = -I_{c.m.} \frac{d\omega_2}{dt}
+	\end{aligned}
+\end{equation}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{wristcock.png}
+	\caption{Initial conditions of the double pendulum with $\theta=90\degree$, $\phi=180\degree$, and $\beta=\phi-\theta=90\degree$. These initial conditions accurately simulate the baseball swing, since the arms are most often at a $90\degree$ angle with the bat right before a swing.}
+\end{figure}
+
+In the position depicted in Figure 3, the swing has not yet begun, so we are at time $t=0$. At this time, the angular velocities of the arm and rod are $\omega_1=\omega_2=0$. This means that Equation 10 can be further simplified into the initial angular accelerations of the arm and rod (given in Equation 11).
+
+\begin{equation}
+	\begin{aligned}
+		\frac{d\omega_1}{dt} & = \frac{g}{A}(M_1 h_1 + M_2 L_1) \\
+		\frac{d\omega_2}{dt} & = 0
+	\end{aligned}
+\end{equation}
 
 \section{\label{sec:level3}Experimental Results}
 
+An experimental double pendulum was constructed in the study by Cross et al.\cite{Cross2005} from two $0.30$ meter length aluminum bars, the upper bar of mass $109.3$ grams and the lower bar of mass $25.0$ grams. A mechanical stop was implemented, which kept the $\beta$ angle between the arm and the rod of the pendulum at $90 \degree$ for the initial stage of the swing. The mechanical stop implemented is a small bolt placed inbetween the arm and the rod that prevents the $\beta$ angle from falling below $90\degree$. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{stopmechanism.png}
+	\caption{The stop mechanism that enables an initial $\beta$ angle of $90\degree$ at the initial swing position. The stop mechanism is a rod placed at the hinge of the arm and the rod that applies a force to the rod. An equal and opposite force is applied to the arm.}
+\end{figure}
+
+The stop mechanism is a simulation of actual tendons in the human body that pull on the bone to place joints and limbs in specific positions. In the case of the baseball swing pendulum, the stop mechanism simulates tendons in the forearm and wrist that pull the wrist into position to hold the bat at a $90\degree$ angle to the arms. A visual of this description is given in Figure 5.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.05]{arod.jpg}
+	\caption{A visual of the real life $\beta=90\degree$ angle between the ``arm" and ``rod" (for the double pendulum) or arms and bat (for the baseball player).}
+\end{figure}
+
+----------
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{trajectory.png}
+	\caption{}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.25]{angularvelocities.png}
+	\caption{}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.25]{analyticalresults.png}
+	\caption{}
+\end{figure}
+----------
+
 \section{\label{sec:level4}Torque}
+----------
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{torque.png}
+	\caption{}
+\end{figure}
+
+\begin{equation}
+	F_{\parallel}=\frac{F_x V_x + (F_y - M_2 g) V_y}{V} = M_2 \frac{dV}{dt}
+\end{equation}
+
+\begin{equation}
+	F_{\perp}=\frac{(F_y - M_2 g)V_x+ F_x V_y}{V} = M_2 \frac{V^2}{R}
+\end{equation}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{totaltorque.png}
+	\caption{}
+\end{figure}
+		
+\begin{equation}
+	\tau_{\parallel} = F_{\parallel} h_2 \sin{(\phi - \lambda)}
+\end{equation}
+
+\begin{equation}
+	\tau_{\perp} = F_{\perp} h_2 \cos{(\phi - \lambda)}
+\end{equation}
+
+\begin{equation}
+	C_2 + \tau_{\parallel} + \tau_{\perp} = I_{c.m.} \frac{d \omega_2}{dt}
+\end{equation}
+----------
 
 \section{\label{sec:level5}Energy Transfer}
+
+----------
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{momentumtransfer.png}
+	\caption{}
+\end{figure}
+
+\begin{equation}
+	M V_{c.m.,1} - mv_1 = M V_{c.m.,2} + mv_2
+\end{equation}
+
+\begin{equation}
+	I_{c.m.} \omega_1 - mv_1b=I_{c.m.} \omega_2 + mv_2b
+\end{equation}
+
+\begin{equation}
+	e=\frac{v_2 - V_2}{v_1 + V_1} = \frac{v_2 - V_{c.m.,2} - b \omega_2}{v_1 + V_{c.m.,1} + b \omega_1}
+\end{equation}
+
+\begin{equation}
+	m= \frac{M_e}{[e+(1+e)v_1/V_1]}
+\end{equation}
+----------
 
 \section{\label{sec:level6}Conclusion}
 
