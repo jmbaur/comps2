@@ -83,11 +83,11 @@ The double pendulum is a classic example of chaotic motion\cite{Shinbrot1992}. T
 	\caption{Chaos in a double pendulum. This figure depicts the trajectory of the end of the bottom arm in the double pendulum. The light is traced along the route of the bottom arm. As seen, there is no evident pattern in the bottom arm's trajectory.}
 \end{figure}
 
-The double pendulum is used in real life situations such as in double-trailer trucks (officially known as ``long combination vehicles") where two large-wheeled vehicles are combined at a hinge point. These vehicles are essentially semi-trucks with two trailers attached instead of one. The swinging motion in sports is also a common instance of a double pendulum. For this paper, the double pendulum will be compared to a baseball swing. In a baseball swing, a bat (striking implement) is used in conjunction with the arms to strike a baseball. In general, the arms are held up and back from the player's head, with the bat pointed upwards. The arms initiate the swing, moving towards the center of the player's body; the bat follows the arms, and then swings through as the transfer of energy from the arms to the bat occurs. This motion occurs mostly in the horizontal plane, but nonetheless acts as a double pendulum with the player's arms and the bat as the upper and lower ``arms" of the pendulum, respectively.
+The double pendulum is used in real life situations such as in double-trailer trucks (officially known as “long combination vehicles”) where two large-wheeled vehicles are combined at a hinge point. These vehicles are essentially semi-trucks with two trailers attached instead of one. The swinging motion in sports is also a common instance of a double pendulum. For this paper, the double pendulum will be compared to a baseball swing. In a baseball swing, a bat (striking implement) is used in conjunction with the arms to strike a baseball. In general, the arms are held up and back from the player's head, with the bat pointed upwards. The arms initiate the swing, moving towards the center of the player's body; the bat follows the arms, and then swings through as the transfer of energy from the arms to the bat occurs. This motion occurs mostly in the horizontal plane, but nonetheless acts as a double pendulum with the player's arms and the bat as the upper and lower “arms” of the pendulum, respectively.
 
 Since the swing of a baseball bat only occurs once per trial (does not swing back and forth and time $t$ is relatively low), this motion is equivalent to the first half cycle of a double pendulum swing. Thus, the chaotic motion prevalent in classic double pendulums will not be applicable for the purpose of the baseball swing.
 
-Although the focus of this paper will be on the baseball swing, the double pendulum motion can be applied to the motion of a swing of a baseball bat, golf club, tennis racquet, or any other "swinging" motion that occurs with a striking implement. The goal of this paper will be to quantitatively describe the double pendulum in the context of a baseball swing and determine whether all of the energy in the striking implement can be transferred to the ball on impact. From this, we will decide whether we can design a baseball bat or ball that would allow for this perfect transfer of energy to occur.
+Although the focus of this paper will be on the baseball swing, the double pendulum motion can be applied to the motion of a swing of a baseball bat, golf club, tennis racquet, or any other “swinging” motion that occurs with a striking implement. The goal of this paper will be to quantitatively describe the double pendulum in the context of a baseball swing and determine whether all of the energy in the striking implement can be transferred to the ball on impact. From this, we will decide whether we can design a baseball bat or ball that would allow for this perfect transfer of energy to occur.
 
 \section{\label{sec:level2}Equations of Motion}
 
@@ -95,7 +95,7 @@ Describing the motion of a double pendulum has been argued as highly complicated
 
 Figure 2 depicts the components in a simple double pendulum. The $x,y$ axes for position and forces are shown in the figure. The upper arm of the pendulum is the first arm attached to a fixed axis $A$. This arm has length $L_1$, center of mass at point $G_1$, and distance to its center of mass $h_1$ (measured from point $A$). This arm makes an angle $\theta$ with the vertical axis and has a gravitational force acting on its center of mass equal to $M_1 g$, where $M_1$ is the mass of the arm and $g$ is the acceleration due to gravity.
 
-The second arm (lower arm) rotates on a ``fixed" axis at point $B$. If we isolate the second arm from the system, it would rotate about point $B$ as if it were fixed, however point $B$ is rotating around point $A$ since it is at the end of the first arm. The second arm has a length $L_2$ and its center of mass at point $G_2$, a distance of $h_2$ away from point $B$. The arm makes an angle of $\phi$ with the vertical axis and has a gravitational force of $M_2 g$ acting on its mass $M_2$. Point C is the end of the second arm, and will act as a point of interest for our paper as we track the trajectory of this point. The velocity vector $V$ is the direction of motion for the second arm's center of mass through the swinging of a double pendulum. 
+The second arm (lower arm) rotates on a “fixed” axis at point $B$. If we isolate the second arm from the system, it would rotate about point $B$ as if it were fixed, however point $B$ is rotating around point $A$ since it is at the end of the first arm. The second arm has a length $L_2$ and its center of mass at point $G_2$, a distance of $h_2$ away from point $B$. The arm makes an angle of $\phi$ with the vertical axis and has a gravitational force of $M_2 g$ acting on its mass $M_2$. Point C is the end of the second arm, and will act as a point of interest for our paper as we track the trajectory of this point. The velocity vector $V$ is the direction of motion for the second arm's center of mass through the swinging of a double pendulum. 
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
@@ -146,7 +146,7 @@ The forces on center of mass point $G_2$ are found by taking the derivatives of 
 	\end{aligned}
 \end{equation}
 
-These derived equations are for a generic double pendulum that falls in a vertical fashion. In order to apply this concept to the swing of a baseball bat, we will use the torques on the pendula components. The terminology we will use for the upper and lower components of the pendulum will be the ``arm" and ``rod", respectively. In a baseball swing, we assume that the upper body musculature applies a torque $C_1$ to the arm and a torque $C_2$ to the rod of the pendulum. These torques originate from the equal and opposite muscle and joint reaction forces from the shoulder and elbow joints\cite{Cross2005} (points $A$ and $B$, respectively). The net torque acting on the arm is given using the generic equation $\sum \bold{\tau} = \bold{I} \frac{d \bold{\omega}}{dt}$, where $\tau$ is the net torque, $I$ is the moment of inertia, and $\omega$ is the angular velocity. With torques $C_1$ and $C_2$ on the arm and rod, the rod exerts an equal and opposite torque $-C_2$ on the arm. There is also a clockwise torque on the arm about point $A$ in the form of $F_x L_1 \cos{\theta} + F_y L_1 \sin{\theta}$. Thus, the torque acting on the arm is given by Equation 7.
+These derived equations are for a generic double pendulum that falls in a vertical fashion. In order to apply this concept to the swing of a baseball bat, we will use the torques on the pendula components. The terminology we will use for the upper and lower components of the pendulum will be the “arm” and “rod”, respectively. In a baseball swing, we assume that the upper body musculature applies a torque $C_1$ to the arm and a torque $C_2$ to the rod of the pendulum. These torques originate from the equal and opposite muscle and joint reaction forces from the shoulder and elbow joints\cite{Cross2005} (points $A$ and $B$, respectively). The net torque acting on the arm is given using the generic equation $\sum \bold{\tau} = \bold{I} \frac{d \bold{\omega}}{dt}$, where $\tau$ is the net torque, $I$ is the moment of inertia, and $\omega$ is the angular velocity. With torques $C_1$ and $C_2$ on the arm and rod, the rod exerts an equal and opposite torque $-C_2$ on the arm. There is also a clockwise torque on the arm about point $A$ in the form of $F_x L_1 \cos{\theta} + F_y L_1 \sin{\theta}$. Thus, the torque acting on the arm is given by Equation 7.
 
 \begin{equation}
 	\begin{aligned}
@@ -203,7 +203,7 @@ In the position depicted in Figure 3, the swing has not yet begun, so we are at 
 
 \section{\label{sec:level3}Experimental Results}
 
-An experimental double pendulum was constructed in the study by Cross et al.\cite{Cross2005} from two $0.30$ meter length aluminum bars, the upper bar of mass $109.3$ grams and the lower bar of mass $25.0$ grams. A mechanical stop was implemented, which kept the $\beta$ angle between the arm and the rod of the pendulum at $90 \degree$ for the initial stage of the swing. The mechanical stop implemented is a small bolt placed inbetween the arm and the rod that prevents the $\beta$ angle from falling below $90\degree$. 
+An experimental double pendulum was constructed in the study by Cross et al.\cite{Cross2005} from two $0.30$ meter length aluminum bars, the upper bar of mass $109.3$ grams and the lower bar of mass $25.0$ grams. A mechanical stop was implemented, which kept the $\beta$ angle between the arm and the rod of the pendulum at $90 \degree$ for the initial stage of the swing. The mechanical stop implemented is a small bolt placed inbetween the arm and the rod that prevents the $\beta$ angle from falling below $90\degree$, shown in Figure 4. Contact between the bolt and the end of the arm applies a force $F$ on the rod. An equal and opposite force is incident on the arm at the “hinge” location. These forces do not significantly contribute to the overall acceleration of the rod through its swinging motion. After the arm swings through to about $\theta = 75\degree$, $15\degree$ less than its initial angle, the $\beta$ angle increases past $90\degree$, thus the bolt loses contact with the rod and this contact force is nonexistent.
 
 \begin{figure}[H]
 	\centering
@@ -211,28 +211,41 @@ An experimental double pendulum was constructed in the study by Cross et al.\cit
 	\caption{The stop mechanism that enables an initial $\beta$ angle of $90\degree$ at the initial swing position. The stop mechanism is a rod placed at the hinge of the arm and the rod that applies a force to the rod. An equal and opposite force is applied to the arm.}
 \end{figure}
 
-The stop mechanism is a simulation of actual tendons in the human body that pull on the bone to place joints and limbs in specific positions. In the case of the baseball swing pendulum, the stop mechanism simulates tendons in the forearm and wrist that pull the wrist into position to hold the bat at a $90\degree$ angle to the arms. A visual of this description is given in Figure 5.
+The stop mechanism is a simulation of actual tendons in the human body that pull on the bone to place joints and limbs in specific positions. In the case of the baseball swing pendulum, the stop mechanism simulates tendons in the forearm and wrist that pull the wrist into a cocked position, holding the bat at a $90\degree$ angle to the arms. A visual representation of this is given in Figure 5.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.05]{arod.jpg}
-	\caption{A visual of the real life $\beta=90\degree$ angle between the ``arm" and ``rod" (for the double pendulum) or arms and bat (for the baseball player).}
+	\includegraphics[scale=0.1]{arod.jpg}
+	\caption{A visual of the real life $\beta=90\degree$ angle between the “arm” and “rod” (for the double pendulum) or arms and bat (for the baseball player).}
+\end{figure}
+
+An extra 51.3 g mass was attached to near the end of the rod to increase the moment of inertia of the rod. This added mass, however, creates an unrealistic scenario in which the arm mass to rod mass ratio is too small. In baseball, a realistic arm to rod mass ratio is around 6:1. This added mass lowers the ratio. The increased moment of inertia was simply desired for experimental variability. Trials of the double pendulum swing were ran under the four following conditions:
+
+\begin{itemize}
+	\item Without the stop mechanism and without the added 51.3 g mass,
+	\item Without the stop and with the added mass,
+	\item With the stop and without the added mass,
+	\item With the stop and with the added mass.
+\end{itemize}
+
+
+
+These trials were ran with the afformentioned initial conditions (Figure 3); video software was used to track the $(x,y)$ positions of points of interest for our double pendulum through its swing. The trajectory of point $C$ (the end of the rod) is shown in Figure 6. *to-do: talk about lack of chaos*
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{trajectory.png}
+	\caption{The trajectory of point $C$ through the full half-cycle swing of the experimental double pentulum. As seen, the trajectories are the same through the greater majority of this motion. The angular velocities of the arm and rod are closely related; the rod is at a peak angular velocity when the arm is at its minimum.*to-do: find good word for "connected"*}
 \end{figure}
 
 ----------
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.4]{trajectory.png}
-	\caption{}
-\end{figure}
-
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.25]{angularvelocities.png}
 	\caption{}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.25]{analyticalresults.png}
 	\caption{}
