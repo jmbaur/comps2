@@ -449,12 +449,12 @@ INPUT ./torque.png
 INPUT totaltorque.png
 INPUT ./totaltorque.png
 INPUT ./totaltorque.png
-INPUT momentumtransfer.png
-INPUT ./momentumtransfer.png
-INPUT ./momentumtransfer.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT momentumtransfer.png
+INPUT ./momentumtransfer.png
+INPUT ./momentumtransfer.png
 INPUT comps2pap.bbl
 INPUT comps2pap.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
