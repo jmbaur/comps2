@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex comps2pap"] 1552716261 "comps2pap.aux" "comps2pap.bbl" "comps2pap" 1552717533
+["bibtex comps2pap"] 1552793503 "comps2pap.aux" "comps2pap.bbl" "comps2pap" 1552797737
   "./aipnum4-1.bst" 1552443227 71945 7cd378302a037b260485973f72a35dcd ""
-  "comps2pap.aux" 1552717533 4071 3d8923fc54064bdcc8473d73d310e1da ""
-  "comps2papNotes.bib" 1552717533 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
+  "comps2pap.aux" 1552797737 4288 c7985a1a56e51a8eff72f65b198c56ab ""
+  "comps2papNotes.bib" 1552797737 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
   "main.bib" 1552443227 659 0d8249548e4865f0fab42855c9a3e771 ""
   (generated)
   "comps2pap.bbl"
   "comps2pap.blg"
-["pdflatex"] 1552717532 "comps2pap.tex" "comps2pap.pdf" "comps2pap" 1552717533
+["pdflatex"] 1552797736 "comps2pap.tex" "comps2pap.pdf" "comps2pap" 1552797737
   "/etc/texmf/web2c/texmf.cnf" 1552410056 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -237,9 +237,9 @@
   "analyticalresults.png" 1552443227 104515 de096449f8da9db2b76cf3ea4ef89389 ""
   "angularvelocities.png" 1552443227 113021 4871316f160e125e2dc3249af24ff3fb ""
   "arod.jpg" 1552443227 443248 efd8de0248669d5f55b0b6239fe2429c ""
-  "comps2pap.aux" 1552717533 4071 3d8923fc54064bdcc8473d73d310e1da ""
-  "comps2pap.bbl" 1552716261 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps2pap"
-  "comps2pap.tex" 1552717530 23565 bf0658d5570fdbe56510f27f03ddd875 ""
+  "comps2pap.aux" 1552797737 4288 c7985a1a56e51a8eff72f65b198c56ab ""
+  "comps2pap.bbl" 1552793503 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps2pap"
+  "comps2pap.tex" 1552797734 25375 75eb60e5c440e773b4a94972915e6e77 ""
   "equationsofmotion.png" 1552443227 15749 d6d80853fb89cdada84b1c3c565172a0 ""
   "lights.jpg" 1552443227 119999 bf44f6d159d3c304c9bf2de4401a0baa ""
   "momentumtransfer.png" 1552443227 21106 8f7368f301f5ddae72dbc2f3d5e42fa0 ""
@@ -251,7 +251,7 @@
   "trajectory.png" 1552443227 28263 3f84a064f5f4e94e2efe92c71ef04101 ""
   "wristcock.png" 1552443227 15212 cfe559a994552fa22b59b035a2ac0312 ""
   (generated)
-  "comps2pap.pdf"
-  "comps2pap.log"
-  "comps2pap.aux"
   "comps2papNotes.bib"
+  "comps2pap.pdf"
+  "comps2pap.aux"
+  "comps2pap.log"

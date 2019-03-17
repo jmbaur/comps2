@@ -258,15 +258,15 @@ Equation 9 was used to solve for the angular velocities of the arm and the rod. 
 
 \section{\label{sec:level4}Force Analysis}
 
-The cause of rotation for the rod segment of the double pendulum can be determined by analyzing the forces acting on it. 
+Finding the cause of rotation of the rod segment of the double pendulum can help with finding the best way to maximize the energy transferred from the arm to the rod. The cause of rotation for the rod segment of the double pendulum can be determined by analyzing the forces acting on it. A first look at the double pendulum might imply that the cause of rotation for the rod segment of the arm is similar to the cause of rotation for the arm of a single pendulum. That is, gravitational force acts on the arm and pulls it through its swing. The double pendulum case is, however, more complicated than that of a single pendulum since the center of mass of the rod (point $G_2$) rotates around its own axis point $B$ as well as the axis of rotation for the arm, point $A$. Figure 9 shows the forces acting on the rod for two conditions: one with the stop mechanism and no added mass, the other with the stop mechanism and no added mass. These forces shown in the diagram are of the arm pulling on the rod. All other forces (gravitational force and force due to stop mechanism bolt) are left out of the figure; this will be discussed at the end of this section. *to-do: discuss previous sentence* Note the direction of motion for the center of mass through the swing of the rod. This direction is perpendicular to the rod itself, making a circular/elliptical motion through the swinging path. The forces incident on this center of mass $G_2$ are thus, mostly perpendicular to this motion. This means that there is a large centripetal force and torque incident on the rod's center of mass. The centripetal force pulls the center of mass towards the axis of rotation, always pointing inward. The torque is a product of 
 
-
-----------
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{torque.png}
-	\caption{}
+	\caption{Forces incident on the center of mass $G_2$ of the rod. The limitations set on the graph on the right (with a stop mechanism and without the extra mass) is the most realistic scenario in context of the baseball swing.}
 \end{figure}
+
+----------
 
 \begin{equation}
 	F_{\parallel}=\frac{F_x V_x + (F_y - M_2 g) V_y}{V} = M_2 \frac{dV}{dt}
