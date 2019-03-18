@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.3.15)  16 MAR 2019 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.3.15)  17 MAR 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1130,50 +1130,51 @@ Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead
 <wristcock.png, id=26, 490.83376pt x 438.63875pt>
 File: wristcock.png Graphic file (type png)
 <use wristcock.png>
-Package pdftex.def Info: wristcock.png  used on input line 191.
+Package pdftex.def Info: wristcock.png  used on input line 190.
 (pdftex.def)             Requested size: 245.41628pt x 219.31883pt.
 <stopmechanism.png, id=27, 386.44376pt x 247.92625pt>
 File: stopmechanism.png Graphic file (type png)
 <use stopmechanism.png>
-Package pdftex.def Info: stopmechanism.png  used on input line 210.
+Package pdftex.def Info: stopmechanism.png  used on input line 209.
 (pdftex.def)             Requested size: 154.57475pt x 99.16873pt.
 <arod.jpg, id=28, 1442.38875pt x 2569.6pt>
 File: arod.jpg Graphic file (type jpg)
 <use arod.jpg>
-Package pdftex.def Info: arod.jpg  used on input line 218.
+Package pdftex.def Info: arod.jpg  used on input line 217.
 (pdftex.def)             Requested size: 144.24731pt x 256.97505pt.
  [3 <./wristcock.png> <./stopmechanism.png>]
 <trajectory.png, id=32, 495.8525pt x 248.93pt>
 File: trajectory.png Graphic file (type png)
 <use trajectory.png>
-Package pdftex.def Info: trajectory.png  used on input line 237.
+Package pdftex.def Info: trajectory.png  used on input line 236.
 (pdftex.def)             Requested size: 198.33748pt x 99.57022pt.
  [4 <./arod.jpg> <./trajectory.png>]
 <angularvelocities.png, id=36, 878.28125pt x 836.12375pt>
 File: angularvelocities.png Graphic file (type png)
 <use angularvelocities.png>
-Package pdftex.def Info: angularvelocities.png  used on input line 247.
+Package pdftex.def Info: angularvelocities.png  used on input line 244.
 (pdftex.def)             Requested size: 219.56978pt x 209.03043pt.
 <analyticalresults.png, id=37, 829.0975pt x 757.83125pt>
 File: analyticalresults.png Graphic file (type png)
 <use analyticalresults.png>
-Package pdftex.def Info: analyticalresults.png  used on input line 255.
+Package pdftex.def Info: analyticalresults.png  used on input line 252.
 (pdftex.def)             Requested size: 207.27386pt x 189.45735pt.
 <torque.png, id=38, 793.96625pt x 403.5075pt>
 File: torque.png Graphic file (type png)
 <use torque.png>
-Package pdftex.def Info: torque.png  used on input line 265.
+Package pdftex.def Info: torque.png  used on input line 262.
 (pdftex.def)             Requested size: 238.19171pt x 121.05318pt.
  [5 <./angularvelocities.png> <./analyticalresults.png>]
 <totaltorque.png, id=42, 463.7325pt x 379.4175pt>
 File: totaltorque.png Graphic file (type png)
 <use totaltorque.png>
-Package pdftex.def Info: totaltorque.png  used on input line 281.
+Package pdftex.def Info: totaltorque.png  used on input line 296.
 (pdftex.def)             Requested size: 185.4897pt x 151.7643pt.
-<momentumtransfer.png, id=43, 570.13pt x 371.3875pt>
+ [6 <./torque.png>]
+<momentumtransfer.png, id=46, 570.13pt x 371.3875pt>
 File: momentumtransfer.png Graphic file (type png)
 <use momentumtransfer.png>
-Package pdftex.def Info: momentumtransfer.png  used on input line 304.
+Package pdftex.def Info: momentumtransfer.png  used on input line 308.
 (pdftex.def)             Requested size: 228.04796pt x 148.55235pt.
  (./comps2pap.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1185,20 +1186,20 @@ Underfull \hbox (badness 1112) in paragraph at lines 69--74
  []\T1/ptm/m/n/8 Cross, ``A dou-ble pen-du-lum swing ex-per-i-ment,'' Amer-i-can Jour-nal of
  []
 
-) [6 <./torque.png> <./totaltorque.png> <./momentumtransfer.png>] (./comps2pap.aux) ) 
+) [7 <./totaltorque.png> <./momentumtransfer.png>] (./comps2pap.aux) ) 
 Here is how much of TeX's memory you used:
- 29897 strings out of 492641
- 619028 string characters out of 6131787
+ 29901 strings out of 492641
+ 619048 string characters out of 6131787
  659256 words of memory out of 5000000
  33296 multiletter control sequences out of 15000+600000
- 598565 words of font info for 160 fonts, out of 8000000 for 9000
+ 599617 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,71p,2694b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,71p,2802b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on comps2pap.pdf (6 pages, 1013142 bytes).
+Output written on comps2pap.pdf (7 pages, 1017448 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
