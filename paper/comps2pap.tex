@@ -273,7 +273,7 @@ The total forces acting on the rod's center of mass can be described in Equation
 	F_{\perp}=\frac{(F_y - M_2 g)V_x+ F_x V_y}{V} = M_2 \frac{V^2}{R}
 \end{equation}
 
-The torque that is incident on the center of mass of the rod from the forces on the rod are described in Equations 14 and 15. Equation 14 describes the torque that is produced from the parallel force on the rod's center of mass; Equation 15 describes the torque that is produced from the perpendicular force that is centripetal in nature. Note that the description of these torques as parallel and perpendicular are not in coordination to the motion of direction of $G_2$, it is simply a description of the torque produced from the different components of force on the rod. The actual directions of these torques are, according to Figure 9, into the page.
+The torque that is incident on the center of mass of the rod from the forces on the rod are described in Equations 14 and 15. Equation 14 describes the torque that is produced from the parallel force on the rod's center of mass; Equation 15 describes the torque that is produced from the perpendicular force that is centripetal in nature. Note that the description of these torques as parallel and perpendicular are not in coordination to the motion of direction of $G_2$, it is simply a description of the torque produced from the different components of force on the rod. The actual directions of these torques are, according to Figure 9, into the page. In Equations 14 and 15, $\lambda$ is the angle between the velocity vector $V$ and the vertical axis.
 
 \begin{equation}
 	\tau_{\parallel} = F_{\parallel} h_2 \sin{(\phi - \lambda)}
@@ -301,32 +301,45 @@ For the purposes of deriving equations, the effects of gravity on the rod were i
 
 \section{\label{sec:level5}Energy Transfer}
 
-----------
+Now that the double pendulum has been solved with respect to the arm and rod components, this section will focus on the interaction between the rod and the ball. This interaction is depicted Figure 11, with the impact of the rod and the ball. Before impact occurs, the rod at the point of impact is traveling at a velocity $V_1$ to the right and the ball is traveling at a velocity $v_1$. Although the angular velocities before and after the collision are shown ($\omega_1$ and $\omega_2$, respectively), it is assumed that the velocities are linear since only the moments immediately before and after impact are being analyzed. The rod's center of mass travels at velocity $V_{cm1}$, with a distance $b$ between the center of mass $G_2$ and the point of impact. The corresponding velocities after the collision for the rod at point of impact, the rod's center of mass, and the ball are $V_2$, $V_{cm2}$, and $v_2$, respectively.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{momentumtransfer.png}
-	\caption{}
+	\caption{Interaction between the rod and the ball. Transfer of momentum occurs on impact. Ideally, the rod and the arm components of the double pendulum are in line with one another when this impact occurs.}
 \end{figure}
 
+The transfer of momentum on impact is described in Equation 17, where $M$ is the mass of the rod and $m$ is the mass of the ball. The corresponding angular transfer of momentum is described in Equation 18, where $I_{cm}$ is the moment of inertia for the rod's center of mass.
+
 \begin{equation}
-	M V_{c.m.,1} - mv_1 = M V_{c.m.,2} + mv_2
+	M V_{cm1} - mv_1 = M V_{cm2} + mv_2
 \end{equation}
 
 \begin{equation}
-	I_{c.m.} \omega_1 - mv_1b=I_{c.m.} \omega_2 + mv_2b
+	I_{cm} \omega_1 - mv_1b=I_{cm} \omega_2 + mv_2b
 \end{equation}
 
+The coefficent of restitution, $e$, describes the energy loss in the ball and ball for the collision (Equation 19). For a collision in which all the energy is transferred from the bat to the ball, $V_{cm2}=\omega_2=0$. With a perfect collision for which all the energy \textit{is} transferred to the ball, Equation 20 is the result, solved for the mass of the ball. In Equation 20, $M_e=MI_{cm}/(I_{cm} + Mb^2)$ is the effective mass of the bat.
+
 \begin{equation}
-	e=\frac{v_2 - V_2}{v_1 + V_1} = \frac{v_2 - V_{c.m.,2} - b \omega_2}{v_1 + V_{c.m.,1} + b \omega_1}
+	e=\frac{v_2 - V_2}{v_1 + V_1} = \frac{v_2 - V_{cm2} - b \omega_2}{v_1 + V_{cm1} + b \omega_1}
 \end{equation}
 
 \begin{equation}
 	m= \frac{M_e}{[e+(1+e)v_1/V_1]}
 \end{equation}
-----------
+
+The effective mass for the baseball bat is the amount of mass that is actually used in the transfer of momentum with respect to how far away from the bat's center of mass the collision occurs. For example, a collision that occurs at the end of the bat results in an effective mass of about 0.4, a huge reduction! So, assuming that the collision occurs exactly at the bat's center of mass and that the coefficent of restitution $e$ is equal to 1 (no energy lost), the mass of the baseball would need to be around 0.5 kg (using Equation 20 for an MLB average ball and bat velocity, $v_1$ and $V_1$). The mass of an actual baseball is 0.14 kg. For a more realistic collision (nonperfect) with a coefficent of restitution $e$ equal to 0.5 and effective mass $M_e$ equal to 0.7 kg, the the mass of the baseball would need to be 0.35 kg (twice as massive as a conventional baseball!). For the same parameters ($e=0.5$ and $M_e=$0.7 kg), a bat will only come to rest if the ratio between $v_1$ and $V_1$ is 3.0. This is a highly unrealistic ratio meaning that the bat must be swung at an incredibly low speed in relation to the ball, resulting in a low kinetic energy in the bat during the swing. Also, for a realistic arm to rod ratio of about 6:1, the transfer of momentum from the arm to the rod is not all that great. This is shown in Figure 12, where a realistic arm to rod ratio was simulated using Equation 9 for the condition with and without the stop mechanism. Since a perfect transfer of momentum occurs when the bat comes to rest immediately after impact, but the arms do not come to rest at this same point of impact, much of the energy in the swing is still present in the arms of the double pendulum.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.28]{swingratio.png}
+	\caption{Simulated swing with an arm to rod ratio of 6.4. The coupling between the arm and rod is too weak at this ratio, meaning that the arm does not come to a full rest at its minimum velocity. This implies that there is not a perfect transfer of momentum from the arm to the rod in a realistic baseball swing.}
+\end{figure}
 
 \section{\label{sec:level6}Conclusion}
+
+Ultimately, this experiment was performed to decide whether a baseball bat or ball could be designed in such a way that all the energy from the arms and bat could be transferred perfectly to the ball in order to increase the distance the ball travels, and therefore increase on-field performance.
 
 \nocite{*}
 \bibliography{main.bib}% Produces the bibliography via BibTeX.

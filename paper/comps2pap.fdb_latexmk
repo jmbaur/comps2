@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex comps2pap"] 1552889453 "comps2pap.aux" "comps2pap.bbl" "comps2pap" 1552889673
+["bibtex comps2pap"] 1552931807 "comps2pap.aux" "comps2pap.bbl" "comps2pap" 1552932152
   "./aipnum4-1.bst" 1552443227 71945 7cd378302a037b260485973f72a35dcd ""
-  "comps2pap.aux" 1552889672 4477 b0a029701b58688671c308354ce3eb64 ""
-  "comps2papNotes.bib" 1552889672 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
+  "comps2pap.aux" 1552932152 5058 f20b801bd50b415d902408569bda07de ""
+  "comps2papNotes.bib" 1552932152 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
   "main.bib" 1552443227 659 0d8249548e4865f0fab42855c9a3e771 ""
   (generated)
   "comps2pap.blg"
   "comps2pap.bbl"
-["pdflatex"] 1552889671 "comps2pap.tex" "comps2pap.pdf" "comps2pap" 1552889673
+["pdflatex"] 1552932151 "comps2pap.tex" "comps2pap.pdf" "comps2pap" 1552932152
   "/etc/texmf/web2c/texmf.cnf" 1552410056 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -21,6 +21,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm" 1480098689 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1480098689 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1480098689 4640 532ca3305aad10cc01d769f3f91f1029 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm" 1480098689 6944 94c55ad86e6ea2826f78ba2240d50df9 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm" 1480098689 2232 db256afffc8202da192b4641df14d602 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm" 1480098689 2172 1d00c2a0d10f23031be62329457a870c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm" 1480098689 1032 20febbd0f0c9a48eb78616f897008286 ""
@@ -74,6 +75,7 @@
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf" 1480098758 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1480098758 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1480098758 2348 91706c542228501c410c266421fbe30c ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf" 1480098758 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1480098758 1132 27520247d3fe18d4266a226b461885c2 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1480098758 1108 d271d6f9de4122c3f8d3b65666167fac ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf" 1480098758 1012 046369ac6a83af997c3aa05a43256ad5 ""
@@ -237,15 +239,16 @@
   "analyticalresults.png" 1552443227 104515 de096449f8da9db2b76cf3ea4ef89389 ""
   "angularvelocities.png" 1552443227 113021 4871316f160e125e2dc3249af24ff3fb ""
   "arod.jpg" 1552443227 443248 efd8de0248669d5f55b0b6239fe2429c ""
-  "comps2pap.aux" 1552889672 4477 b0a029701b58688671c308354ce3eb64 ""
-  "comps2pap.bbl" 1552889453 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps2pap"
-  "comps2pap.tex" 1552889670 30153 11dbd73c22655e11e6c75f00711221df ""
+  "comps2pap.aux" 1552932152 5058 f20b801bd50b415d902408569bda07de ""
+  "comps2pap.bbl" 1552931807 3262 58a2fb5dc7129ae8a7ec68dca62ff658 "bibtex comps2pap"
+  "comps2pap.tex" 1552932151 34482 256697c9e7900bbfd9b8a7c3d1f9caab ""
   "equationsofmotion.png" 1552443227 15749 d6d80853fb89cdada84b1c3c565172a0 ""
   "lights.jpg" 1552443227 119999 bf44f6d159d3c304c9bf2de4401a0baa ""
   "momentumtransfer.png" 1552443227 21106 8f7368f301f5ddae72dbc2f3d5e42fa0 ""
   "revsymb4-1.sty" 1552443227 5190 0f4247f7a75d2f8239f5a0c0c404bea3 ""
   "revtex4-1.cls" 1552443227 199797 cabc32ae3f68475cabbf37ac7498f20b ""
   "stopmechanism.png" 1552443227 15087 babb683f1b5f40fa514f5ad63ca9a1d5 ""
+  "swingratio.png" 1552931404 56027 d1f66e1e45769f32afed53a743916cb5 ""
   "torque.png" 1552443227 47818 ae90c7a34d044d41adf7a07364648b6e ""
   "totaltorque.png" 1552443227 30325 ac49009f3e60ba44cc7833e54b5c032e ""
   "trajectory.png" 1552443227 28263 3f84a064f5f4e94e2efe92c71ef04101 ""
@@ -253,5 +256,5 @@
   (generated)
   "comps2papNotes.bib"
   "comps2pap.log"
-  "comps2pap.pdf"
   "comps2pap.aux"
+  "comps2pap.pdf"
